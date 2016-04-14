@@ -8,8 +8,8 @@ public class PlayerController : MonoBehaviour {
     public Text countText;
     public Text winText;
 
-    private Rigidbody rb;
-    private int count;
+    public Rigidbody rb;
+    public int count;
 
     void Start ()
     {
